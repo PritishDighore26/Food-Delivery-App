@@ -4,23 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- HEADER PART -->
     <header>
-
+        <nav class="navbar flex between" >
+            <a href="#" class="logo">FoodKing.</a>
+            <ul class="navlist flex gap-3">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#menu">Menu</a>
+              </li>
+              <li>
+                <a href="#mobile">Mobile-App</a>
+              </li>
+              <li>
+                <a href="#contact">Contacts</a>
+              </li>
+            </ul>
+            <div>
+            <a href="#" class="btn">
+            Sign in
+            </a>
+            </div>
+        </nav>
     </header>
 
   <!-- SEACTION PART -->
     <main>
-
+      <section class="hero" id="home">
+          <h1>Order your favourite food here</h1>
+          <p>Delicious meals delivered to your door.<br>Choose from a wide variety of cuisines and dishes, freshly prepared by top local restaurants.<br>Enjoy healthy, tasty, and affordable meals anytime, anywhere.</p>
+          <a href="#" class="btn1">Explore Menu</a>
+      </section>
+      <br>
+      <br>
+      <section class="menu" id="menu">
+        <div>
+          <div class="text-center text-color ">
+            <h3>Explore our menue</h>
+            <h1>The Most Popular</h1>
+          </div>
+          <div class="casr-list text-center flex gap-3">
+            <div class="order-card">
+              <div class="card-image">
+                <img src="img/burger.png">
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price"> ₹250</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="img/burger.png">
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price"> ₹250</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="img/burger.png">
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price"> ₹250</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="img/burger.png">
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price"> ₹250</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div> 
+      </section><br><br><br><br><br><br>
+      </div>
+      <section id="mobile">
+        <div class="text-center text-color"> 
+          <h1>For Better Experience Download</h1>
+          <h1>FoodKing. App</h1>
+        </div>
+        <div class="app-logo flex gap-3">
+          <a href="#"><img src="img/googleplay.png"></a>
+          <a href="#"><img src="img/appstore.png"></a>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER PART -->
-    <footer>
-        
+    <footer id="contact">
+        <div class="footer flex gap-7">
+          <div>
+            <a href="#" class="logo">FoodKing.</a>
+            <br>
+            <i class="bi bi-instagram"></i>
+            <h4>Copyright 2025 FoodKing. All rights reserved.</h4>
+          </div>
+          <div>
+            <ul>
+              <li>Company</li>
+              <li>About FoodKing.</li>
+              <li>For Business</li>
+              <li>Cooking Partner</li>
+              <li>Career</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Contact</li>
+              <li>Help & Support</li>
+              <li>+91-308-4900522</li>
+              <li>foodking@gmail.com</li>
+            </ul>
+          </div>
+        </div>
     </footer>
 
 </body>

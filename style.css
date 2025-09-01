@@ -1,21 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-:root{
-    --lead:#212121;
-    --gold-finger:#f2BD12;
-    --eye-ball:#FFFDF7;
-    --hint-yellow:#FCF1CC;
-    --pure-white:#FFF;
-}
-
-
 body{
-    background:var(--eye-ball);
+    margin:0;
+    padding:0 4rem;
+    box-sizing:border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* Basic Styling */
+.hero h1,p{
+    color:azure
+}
+a{
+    font-size:1.4rem;
+    text-decoration:none;
+    color:grey;
+}
+.flex{
+    display: flex;
+    align-items:center;
+}
+li{
+    list-style:none;
+}
+.between{
+    justify-content:space-between;
+}
+.gap-3{
+    gap:5rem;
+}
+.gap-2{
+    gap:2rem;
+}
+
+.gap-7{
+    gap:5rem;
+}
+.text-center{
+    text-align:center;
+}
+
+
+/* Header Styling */
+.navlist{
+    padding-top: 1rem;
+}
+.navbar{
+    min-height:14vh;
+    padding-inline:6rem;
+    box-shadow:0 4px 12px rgb(0, 0, 0, 0.12);
+    border-radius: 3rem;
+}
+.logo{
+    font-size:2rem;
+    font-weight:bold;
+    color:rgb(255, 131, 74);
+}
+.btn{
+    padding:0.7rem 1.3rem;
+    border-radius: 2rem;
+    box-shadow:rgb(230, 230, 230) 1px 3px;
+    background-color: #ff7a3c;
+    color:white
+}
+.btn:hover{
+    background:white;
+    color:#ff7a3c;
+    border:2px solid #ff7a3c;
+}
+
+/* Section Styling */
+.btn1{
+    padding:0.7rem 1.3rem;
+    border-radius: 2rem;
+    box-shadow:rgb(230, 230, 230) 1px 2px;
+    background-color: #ff7a3c;
+    color:white;
+}
+.btn1:hover{
+    background:white;
+    color:#ff7a3c;
+    border:2px solid #ff7a3c;
+}
+.hero{
+    background-image: url('img/header_img.png'); 
+    background-size:70rem 60rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2rem;
+    padding: 2rem 10rem;
+    color:#ff7a3c;
+    font-size: 2rem;
+}
+.order-card{
+    border:0.2rem solid #ff7a3c;
+    border-radius: 2rem;
+    padding:0 1rem 1.5rem 1rem;
+    flex:1;
+    box-shadow: 8px 8px 8px rgb(198, 198, 198);
+}
+.card-image img{
+    width:13rem;
+}
+.text-color{
+    color:#ff7a3c;
+}
+.app-logo img{
+    padding:2rem;
+    width:20rem;
+}
+.app-logo{
+    justify-content:center;
+}
+
+/* Footer Styling */
+footer{
+    /* margin-top: 4rem; */
+    padding:2rem 0;
+    box-shadow:0 -4px 12px rgb(0, 0, 0, 0.12);
+    padding-left:2rem;
+    color:grey;
+}
+
+
+
+
+/* Media Queries */
+
+
+
