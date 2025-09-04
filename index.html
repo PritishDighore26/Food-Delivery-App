@@ -11,7 +11,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="cart.js"></script>
 </head>
 
 <body>
@@ -69,7 +68,7 @@
               </div>
               <h4>Burger</h4>
               <h4 class="price"> ₹250</h4>
-              <button type="button" value="burger" class="btn" id="burger" onclick="addToCart('burger')">Add to Cart</button>
+              <button type="button" value="burger" class="btn" id="burger" onclick="addToCart(1)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -77,7 +76,7 @@
               </div>
               <h4>Pizza</h4>
               <h4 class="price"> ₹350</h4>
-              <button type="button" value="pizza" class="btn" id="pizza" onclick="addToCart('pizza')">Add to Cart</button>
+              <button type="button" value="pizza" class="btn" id="pizza" onclick="addToCart(2)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -85,7 +84,7 @@
               </div>
               <h4>Chicken Roll</h4>
               <h4 class="price"> ₹450</h4>
-              <button type="button" class="btn" value="chicken_roll" id="chicken_roll"onclick="addToCart('chicken_roll')">Add to Cart</button>
+              <button type="button" class="btn" value="chicken_roll" id="chicken_roll"onclick="addToCart(3)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -93,7 +92,7 @@
               </div>
               <h4>Fried Chicken</h4>
               <h4 class="price"> ₹500</h4>
-              <button type="button" class="btn" value="fried_chicken" id="fried_chicken" onclick="addToCart('fried-chicken')">Add to Cart</button>
+              <button type="button" class="btn" value="fried_chicken" id="fried_chicken" onclick="addToCart(4)">Add to Cart</button>
             </div>
           </div>
             </div>
@@ -106,7 +105,7 @@
               </div>
               <h4>Lasagna</h4>
               <h4 class="price"> ₹250</h4>
-              <button type="button" value="lasagna" class="btn" id="lasagna" onclick="addToCart('lasagna')">Add to Cart</button>
+              <button type="button" value="lasagna" class="btn" id="lasagna" onclick="addToCart(5)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -114,7 +113,7 @@
               </div>
               <h4>Spaghetti</h4>
               <h4 class="price"> ₹350</h4>
-              <button type="button" value="spaghetti" class="btn" id="spaghetti" onclick="addToCart('spaghetti')">Add to Cart</button>
+              <button type="button" value="spaghetti" class="btn" id="spaghetti" onclick="addToCart(6)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -122,7 +121,7 @@
               </div>
               <h4>Spring Roll</h4>
               <h4 class="price"> ₹450</h4>
-              <button type="button" class="btn" value="spring_roll" id="spring_roll"onclick="addToCart('spring_roll')">Add to Cart</button>
+              <button type="button" class="btn" value="spring_roll" id="spring_roll"onclick="addToCart(7)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -130,7 +129,7 @@
               </div>
               <h4>Fish Fry</h4>
               <h4 class="price"> ₹500</h4>
-              <button type="button" class="btn" value="fish_fry" id="fish_fry" onclick="addToCart('fish_fry')">Add to Cart</button>
+              <button type="button" class="btn" value="fish_fry" id="fish_fry" onclick="addToCart(8)">Add to Cart</button>
             </div>
           </div>
             </div>
@@ -143,7 +142,7 @@
               </div>
               <h4>Chilli Paneer</h4>
               <h4 class="price"> ₹250</h4>
-              <button type="button" value="chilli_paneer" class="btn" id="chilli_paneer" onclick="addToCart('chilli_paneer')">Add to Cart</button>
+              <button type="button" value="chilli_paneer" class="btn" id="chilli_paneer" onclick="addToCart(9)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -151,7 +150,7 @@
               </div>
               <h4>Biryani</h4>
               <h4 class="price"> ₹350</h4>
-              <button type="button" value="biryani" class="btn" id="biryani" onclick="addToCart('biryani')">Add to Cart</button>
+              <button type="button" value="biryani" class="btn" id="biryani" onclick="addToCart(10)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -159,7 +158,7 @@
               </div>
               <h4>Sandwich</h4>
               <h4 class="price"> ₹450</h4>
-              <button type="button" class="btn" value="sandwich" id="sandwich"onclick="addToCart('sandwich')">Add to Cart</button>
+              <button type="button" class="btn" value="sandwich" id="sandwich"onclick="addToCart(11)">Add to Cart</button>
             </div>
             <div class="order-card">
               <div class="card-image">
@@ -167,7 +166,7 @@
               </div>
               <h4>French Fries</h4>
               <h4 class="price"> ₹500</h4>
-              <button type="button" class="btn" value="french_fries" id="french_fries" onclick="addToCart('french_fries')">Add to Cart</button>
+              <button type="button" class="btn" value="french_fries" id="french_fries" onclick="addToCart(12)">Add to Cart</button>
             </div>
           </div>
             </div>
@@ -231,6 +230,7 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
+  <script src="cart.js"></script>
 </body>
-
 </html>

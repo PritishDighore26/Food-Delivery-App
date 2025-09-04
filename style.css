@@ -166,9 +166,27 @@ table tr {
 }
 
 table {
-    border: 1rem solid;
+    border: .4rem solid;
 }
+
+#cart-total{
+    width: 20%;
+    float: left;
+}
+.ct{
+    margin-top: auto;
+}
+
 /* carousel-item */
 .carousel-item{
     padding:0 2rem 3rem 2rem; 
 }
+
+.btn-cart{
+    border-radius: .2rem;
+    border:.2rem;
+    padding:.6rem 5rem;
+    background-color: #ff7a3c;
+    color: white;
+}
+

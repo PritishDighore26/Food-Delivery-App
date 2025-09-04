@@ -1,15 +1,4 @@
 function validateform(){
-    let f=document.getElementById('fname').value;
-    if(f===""){
-        alert("First Name should not be empty!");
-        return false;//prevent form submission
-    }
-
-    let l=document.getElementById('lname').value;
-    if(l===""){
-        alert("Last Name should not be empty!");
-        return false;
-    }
 
     let e=document.getElementById('email').value;
     let emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -38,11 +27,4 @@ function validateform(){
     
     alert("Form submitted successfully!");
     return true;
-}
-function backgroundColor(color){
-    document.getElementById('fname').style.backgroundColor=color;
-    document.getElementById('lname').style.backgroundColor=color;
-    document.getElementById('email').style.backgroundColor=color;
-    document.getElementById('pass').style.backgroundColor=color;
-    document.getElementById('cpass').style.backgroundColor=color;
 }

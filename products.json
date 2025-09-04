@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Burger",
+        "price": 250
+    },
+    {
+        "id": 2,
+        "name": "Pizza",
+        "price": 350
+    },
+    {
+        "id": 3,
+        "name": "Chicken Roll",
+        "price": 450
+    },
+    {
+        "id": 4,
+        "name": "Fried Chicken",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "name": "Lasagna",
+        "price": 250
+    },
+    {
+        "id": 6,
+        "name": "Spaghetti",
+        "price": 350
+    },
+    {
+        "id": 7,
+        "name": "Spring Roll",
+        "price": 450
+    },
+    {
+        "id": 8,
+        "name": "Fish Fry",
+        "price": 500
+    },
+    {
+        "id": 9,
+        "name": "Chilli Paneer",
+        "price": 250
+    },
+    {
+        "id": 10,
+        "name": "Biryani",
+        "price": 350
+    },
+    {
+        "id": 11,
+        "name": "Sandwich",
+        "price": 450
+    },
+    {
+        "id": 12,
+        "name": "French Fries",
+        "price": 500
+    } 
+]
